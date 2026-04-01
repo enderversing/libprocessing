@@ -31,7 +31,7 @@ fn sketch() -> error::Result<()> {
     transform_set_position(graphics, Vec3::new(100.0, 100.0, 300.0))?;
     transform_look_at(graphics, Vec3::new(0.0, 0.0, 0.0))?;
 
-    let mut angle = 0.0;
+    let mut angle: f32 = 0.0;
 
     while glfw_ctx.poll_events() {
         graphics_begin_draw(graphics)?;
