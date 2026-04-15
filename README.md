@@ -40,7 +40,13 @@ You'll need to install the Rust toolchain to work on this project. Most users wi
 
 ### Build commands
 
-This project uses [just](https://github.com/casey/just) as a command runner. Run `just` to see available commands.
+This project uses [just](https://github.com/casey/just) as a command runner:
+
+```bash
+cargo install just
+```
+
+Run `just` to see available commands.
 
 ## Building for web
 
